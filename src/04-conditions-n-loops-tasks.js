@@ -81,7 +81,7 @@ function getSumBetweenNumbers(n1, n2) {
     sum += i;
   }
   return sum;
-  // throw new Error('Not implemented');
+  
 }
 
 
