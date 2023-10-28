@@ -81,9 +81,8 @@ function getSumBetweenNumbers(n1, n2) {
     sum += i;
   }
   return sum;
-  
+  // throw new Error('Not implemented');
 }
-
 
 /**
  * Returns true, if a triangle can be built with the specified sides a, b, c

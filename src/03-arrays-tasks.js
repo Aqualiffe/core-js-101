@@ -22,7 +22,7 @@
  */
 function findElement(arr, value) {
   return arr.indexOf(value);
- 
+  // throw new Error('Not implemented');
 }
 
 /**
