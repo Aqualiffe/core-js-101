@@ -36,8 +36,9 @@ function findElement(arr, value) {
  *    2 => [ 1, 3 ]
  *    5 => [ 1, 3, 5, 7, 9 ]
  */
-function generateOdds(/* len */) {
-
+function generateOdds(len) {
+  const arr = Array.from(Array(len * 2).keys());
+  return arr.filter((elem) => elem % 2 === 1);
   // throw new Error('Not implemented');
 }
 
